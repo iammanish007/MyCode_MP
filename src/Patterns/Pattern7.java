@@ -8,21 +8,20 @@ package Patterns;
 
 public class Pattern7 {
 	public static void main(String[] args) {
-		int k=1,x=1;
-		for(int i=1;i<=5; i++){
-			for(int j=4;j>=i;j--){
+		int i, j, k, x;
+		for (i = 1; i <= 5; i++) {
+			for (j = 4; j >= i; j--) {
 				System.out.print("+");
 			}
-//			while(k<=x){
-//				System.out.print("*");
-//				k++;
-//			}
-			for(k=1; k<=x; k++){
-				System.out.print("*");
+			x = i;
+			for (k = 1; k <= (2 * i - 1); k++) {
+				if (k < (2*i) / 2) {
+					System.out.print(x++);
+				} else {
+					System.out.print(x--);
+				}
 			}
-			x=x+2;
 			System.out.println("");
 		}
 	}
-
 }
