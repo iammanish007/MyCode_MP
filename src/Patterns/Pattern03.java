@@ -6,7 +6,7 @@ package Patterns;
 //D D D D
 //E E E E E
 
-public class Pattern3 {
+public class Pattern03 {
 	public static void main(String[] args) {
 		char print = 'A';
 		for(int i=1; i<=5; i++){

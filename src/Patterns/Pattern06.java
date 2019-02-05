@@ -6,7 +6,7 @@ package Patterns;
 //-*******
 //*********
 
-public class Pattern6 { // tricky
+public class Pattern06 { // tricky
 	public static void main(String args[]) {
 		int x = 1;
 		for (int i = 1; i <= 5; i++) {

@@ -6,7 +6,7 @@ package Patterns;
 //---AB
 //----A
 
-public class Pattern9 {
+public class Pattern09 {
 	public static void main(String[] args) {
 		char ch;
 		for (int i = 1; i <= 5; i++) {

@@ -6,7 +6,7 @@ package Patterns;
 //DDDD
 //EEEEE
 
-public class Pattern8 {
+public class Pattern08 {
 	public static void main(String[] args) {
 		method1();
 		System.out.println("-----------------------------");
